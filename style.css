@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, 
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+    sans-serif;
+}
+/* paleta de cores
+ verde:#49a09d
+ lilas:#5f2c82
+ */
+body,html{
+background-color: #5f2c82;
+
+}
+
+main{
+    display: flex;
+   
+     
+     margin-top: 170px;   
+}
+h1{
+    text-align: center;
+    color: rgb(90, 90, 90);
+    text-shadow: rgb(0, 0, 0) 1px 2px 1px;
+}
+section{
+    flex-flow: row wrap;
+}
+
+section#login{
+    position: absolute;
+    top:50%;
+    left:50%;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+    /* overflow esconde o que esta fora da borda ### nesse caso arredondou bordas superiores*/
+    
+    box-shadow: rgba(0, 0, 0, 0.918) 5px 5px 10px ;
+    
+
+}
+p{
+    text-align: center;
+    margin: 5px;
+}
+#txt{
+   
+    padding: 3px;
+    border-radius: 10px;
+    margin: 5px;
+}
+label{
+    font-weight: bolder;
+
+}
+#imagem{
+    border-radius: 20px;
+    display:block;
+    background-image: url(foto1.jpeg);
+    height: 200px;
+    
+
+}
+#formulario{
+    display: block;
+    padding: 10px;
+}
+
+
